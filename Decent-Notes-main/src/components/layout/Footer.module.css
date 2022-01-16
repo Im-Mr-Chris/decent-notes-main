@@ -1,0 +1,26 @@
+.container {
+  margin: 0px 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+h4 {
+  width: min(820px, 90vw);
+  border-radius: 8px;
+  background-color: #0000001f;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+.Footerlink {
+  color: var(--primary_color);
+}
+@media print {
+  .container {
+    display: none;
+  }
+}

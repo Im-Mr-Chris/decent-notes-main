@@ -1,0 +1,79 @@
+.topWrapper,
+.topWrapperNotesList {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: var(--primary_dark_color);
+  z-index: 999;
+}
+.topWrapperNotesList {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.container {
+  display: flex;
+  padding: 26px 20px;
+  justify-content: space-between;
+  background-color: var(--primary_dark_color);
+  margin-bottom: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.branding {
+  display: flex;
+  align-items: center;
+  color: var(--primary_color);
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0;
+}
+.brandingSymbol,
+.brandingLettering {
+  font-family: "Vollkorn", serif;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+.brandingSymbol {
+  background-color: var(--primary_color);
+  color: var(--primary_dark_color);
+  padding: 5px;
+  font-size: 24px;
+  margin-right: 12px;
+  border-radius: 5px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  line-height: 1.2;
+}
+.brandingLettering {
+  margin-top: 5px;
+  line-height: 0;
+}
+.createNotesBtn {
+  background-color: transparent;
+  border: none;
+}
+.createNotesBtn:focus {
+  outline: none;
+}
+.createNotesIcon {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 320px) {
+  .brandingLettering {
+    font-size: 20px;
+  }
+  .brandingSymbol {
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+  }
+}
+@media print {
+  .topWrapper {
+    display: none;
+  }
+}

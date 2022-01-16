@@ -1,0 +1,230 @@
+/* NOTRIX EDITOR STYLES */
+
+.ProseMirror {
+  min-height: 30vh !important;
+  background-color: transparent !important;
+  border-radius: 8px;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: rgb(190, 190, 190) !important;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS and INPUTS Styling*/
+.ProseMirror .code-block button[type="button"] {
+  display: none !important;
+}
+.ProseMirror select {
+  background-color: var(--secondary_dark_color) !important;
+  color: white !important;
+  border: none !important;
+  padding: 3px !important;
+}
+.ProseMirror select:focus {
+  outline: 3px solid rgba(255, 255, 255, 0.1);
+}
+.ProseMirror input[type="checkbox"] {
+  padding: 10px;
+}
+.ProseMirror input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 10px !important;
+}
+
+/* Editor Placeholder Styling*/
+.ProseMirror p[data-empty-text]::before {
+  color: var(--placeholder_color) !important;
+}
+
+/* Block menu trigger styles */
+.ProseMirror .block-menu-trigger {
+  margin-top: 1px !important;
+  margin-left: -39px !important;
+  background-color: transparent !important;
+}
+.ProseMirror .block-menu-trigger svg {
+  fill: var(--placeholder_color) !important;
+}
+
+/* Content and Blocks styles */
+.ProseMirror .heading-content {
+  font-weight: 900;
+}
+.ProseMirror .content {
+  min-height: unset !important;
+}
+.ProseMirror hr::before {
+  border-color: #c1c1c1 !important;
+}
+.ProseMirror hr.page-break::before {
+  border-color: #c1c1c1 !important;
+}
+.ProseMirror .notice-block .icon {
+  top: 4px !important;
+}
+.ProseMirror pre {
+  border-radius: 6px !important;
+  padding: 20px !important;
+  background: #00000044 none repeat scroll 0% 0% !important;
+  margin: 10px 0 !important;
+  border: none !important;
+}
+.ProseMirror code {
+  border: 2px solid #00000050 !important;
+  padding: 3px 4px;
+  line-height: 0;
+  padding: 3px 4px !important;
+  padding-top: 4px !important;
+  background: #00000024;
+}
+.ProseMirror pre code {
+  border: none !important;
+  padding: 0 !important;
+  background: none !important;
+}
+#block-menu-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tables styles */
+.ProseMirror table .grip-column::after {
+  background-color: var(--secondary_dark_color) !important;
+  border-bottom: 3px solid #00000071 !important;
+}
+.ProseMirror table .grip-row::after {
+  background-color: var(--secondary_dark_color) !important;
+  border-right: 3px solid #00000071 !important;
+}
+.ProseMirror table td,
+.ProseMirror table th {
+  border: 2px solid #ffffff2a !important;
+}
+.ProseMirror .scrollable-wrapper:hover ::-webkit-scrollbar {
+  background-color: #0000002a !important;
+}
+.ProseMirror .scrollable-wrapper:hover ::-webkit-scrollbar-thumb {
+  border-color: transparent !important;
+  background-color: var(--secondary_dark_color) !important;
+}
+
+/* Heading styles */
+.ProseMirror h1,
+.ProseMirror h2,
+.ProseMirror h3 {
+  color: #ffffff;
+  display: block;
+  font-weight: bold;
+  margin-left: 0;
+  margin-right: 0;
+}
+.ProseMirror h1 {
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+.ProseMirror h2 {
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+.ProseMirror h3 {
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.ProseMirror li {
+  margin-left: 10px;
+}
+div.notice-block.info {
+  background: #1880b1 !important;
+  color: white !important;
+}
+div.notice-block.tip {
+  background: #37aa63 !important;
+}
+
+/* ------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+  .ProseMirror {
+    font-size: 18px;
+  }
+  .ProseMirror h1 {
+    font-size: 1.4em;
+    margin-top: 0.6em;
+    margin-bottom: 0.64em;
+  }
+  .ProseMirror h2 {
+    font-size: 1.17em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+  }
+  .ProseMirror h3 {
+    font-size: 0.9em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+}
+/* -----------------PRINT STYLES----------------- */
+@media print {
+  p,
+  div,
+  pre,
+  h1,
+  h2,
+  h3 {
+    float: none !important;
+    position: static !important;
+    overflow: visible !important;
+  }
+  .ProseMirror {
+    font-size: 18px;
+    color: #222222 !important;
+  }
+  .ProseMirror h1,
+  .ProseMirror h2,
+  .ProseMirror h3,
+  .ProseMirror h4,
+  .ProseMirror h5,
+  .ProseMirror h6 {
+    color: #000000;
+  }
+  .ProseMirror h1 {
+    font-size: 1.7em;
+    margin-top: 0.6em;
+    margin-bottom: 0.64em;
+  }
+  .ProseMirror h2 {
+    font-size: 1.3em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+  }
+  .ProseMirror h3 {
+    font-size: 1.1em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+  }
+  .ProseMirror table td,
+  .ProseMirror table th {
+    border: 2px solid #555555 !important;
+  }
+  .ProseMirror hr::before {
+    border-color: #555555 !important;
+  }
+  .ProseMirror hr.page-break::before {
+    border-color: #555555 !important;
+  }
+  .ProseMirror .notice-block {
+    border: 2px solid #444444 !important;
+    text-align: left !important;
+    color: #444444 !important;
+  }
+
+  .ProseMirror pre {
+    background-color: #666666 !important;
+    border-radius: 6px !important;
+    border: 1px solid #cccccc !important;
+  }
+}
