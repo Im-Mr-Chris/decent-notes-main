@@ -1,0 +1,123 @@
+.container {
+  background-color: var(--secondary_dark_color);
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.008),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.012),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.018),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.022),
+    100px 100px 80px rgba(0, 0, 0, 0.03);
+  max-width: 850px;
+  width: 88%;
+  margin: 10px auto;
+  padding: 5px 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.content_wrapper {
+  margin-left: 20px;
+}
+.title {
+  font-family: Palatino, Georgia, serif;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.titleLink {
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+}
+
+.content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(143, 143, 143);
+}
+.decor {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 15px;
+}
+.contentDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.contentDetails span {
+  padding: 5px 5px;
+  background-color: #0000002f;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+.contentDetails span svg {
+  margin-bottom: 2px;
+}
+.shareBtn {
+  cursor: pointer;
+}
+.shareBtn:hover {
+  filter: brightness(1.2);
+}
+/* `````````````````````````````````````````` */
+/* generated element for shine effect.
+ * normal state is semi-transparent
+ * white but with zero width. Set no
+ * transition here for no mouse-leave
+ * animations. Otherwise the effect
+ * will play in reverse when your mouse
+ * leaves the element
+ */
+.shareBtn:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/* on hover we animate the width to
+* 100% and opacity to 0 so the element
+* grows and fades out
+*/
+.shareBtn:hover:after {
+  width: 120%;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+/* ``````````````````````````````````````````` */
+@media only screen and (max-width: 700px) {
+  .title {
+    font-size: 25px;
+  }
+  .container {
+    padding: 5px 20px;
+    gap: 0;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .container {
+    padding: 5px 20px;
+    gap: 0rem;
+  }
+}

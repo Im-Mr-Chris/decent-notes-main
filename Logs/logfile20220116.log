@@ -1,0 +1,54 @@
+2022-01-16 00:03:05.817 -08:00 [INF] lohost client: v0.1
+2022-01-16 00:03:05.862 -08:00 [INF] Attempting to register this client as https://8iy4d.lohost.io
+2022-01-16 00:03:06.373 -08:00 [DBG] Connection ID: qZHx2TLIv8n9Fx2cqSg-_g
+2022-01-16 00:03:06.473 -08:00 [INF] Connection made, handshake complete
+2022-01-16 00:03:06.473 -08:00 [INF] Your website should now be available at: https://8iy4d.lohost.io
+2022-01-16 00:03:06.474 -08:00 [INF] This website serves: *
+2022-01-16 00:03:46.959 -08:00 [INF] Request received to get /index.html
+2022-01-16 00:03:46.959 -08:00 [DBG] Getting file information for App\index.html
+2022-01-16 00:03:47.058 -08:00 [INF] Request received to send /index.html
+2022-01-16 00:03:47.058 -08:00 [DBG] Reading file from App\index.html
+2022-01-16 00:03:47.059 -08:00 [DBG] File read from App\index.html: 5113
+2022-01-16 00:03:47.059 -08:00 [DBG] Number of chunks: 1
+2022-01-16 00:03:47.193 -08:00 [INF] Request received to get /styles/app.css
+2022-01-16 00:03:47.193 -08:00 [DBG] Getting file information for App\styles\app.css
+2022-01-16 00:03:47.287 -08:00 [INF] Request received to send /styles/app.css
+2022-01-16 00:03:47.287 -08:00 [DBG] Reading file from App\styles\app.css
+2022-01-16 00:03:47.292 -08:00 [DBG] File read from App\styles\app.css: 1559
+2022-01-16 00:03:47.292 -08:00 [DBG] Number of chunks: 1
+2022-01-16 00:03:48.960 -08:00 [INF] Request received to get /img/GitHub.png
+2022-01-16 00:03:48.961 -08:00 [DBG] Getting file information for App\img\GitHub.png
+2022-01-16 00:03:49.055 -08:00 [INF] Request received to send /img/GitHub.png
+2022-01-16 00:03:49.056 -08:00 [DBG] Reading file from App\img\GitHub.png
+2022-01-16 00:03:49.059 -08:00 [DBG] File read from App\img\GitHub.png: 2330
+2022-01-16 00:03:49.059 -08:00 [DBG] Number of chunks: 1
+2022-01-16 00:05:24.189 -08:00 [INF] Request received to get /config.html
+2022-01-16 00:05:24.189 -08:00 [DBG] Getting file information for App\config.html
+2022-01-16 00:05:24.281 -08:00 [INF] Request received to send /config.html
+2022-01-16 00:05:24.281 -08:00 [DBG] Reading file from App\config.html
+2022-01-16 00:05:24.282 -08:00 [DBG] File read from App\config.html: 7116
+2022-01-16 00:05:24.282 -08:00 [DBG] Number of chunks: 1
+2022-01-16 00:05:24.956 -08:00 [INF] Request received to get /styles/app.css
+2022-01-16 00:05:24.957 -08:00 [DBG] Getting file information for App\styles\app.css
+2022-01-16 00:05:25.957 -08:00 [INF] Request received to get /img/GitHub.png
+2022-01-16 00:05:25.957 -08:00 [DBG] Getting file information for App\img\GitHub.png
+2022-01-16 00:05:26.096 -08:00 [INF] Request received to send /styles/app.css
+2022-01-16 00:05:26.096 -08:00 [DBG] Reading file from App\styles\app.css
+2022-01-16 00:05:26.096 -08:00 [DBG] File read from App\styles\app.css: 1559
+2022-01-16 00:05:26.096 -08:00 [DBG] Number of chunks: 1
+2022-01-16 00:05:26.143 -08:00 [INF] Request received to send /img/GitHub.png
+2022-01-16 00:05:26.144 -08:00 [DBG] Reading file from App\img\GitHub.png
+2022-01-16 00:05:26.144 -08:00 [DBG] File read from App\img\GitHub.png: 2330
+2022-01-16 00:05:26.144 -08:00 [DBG] Number of chunks: 1
+2022-01-16 00:14:03.121 -08:00 [INF] Request received to get /index.html
+2022-01-16 00:14:03.122 -08:00 [DBG] Getting file information for App\index.html
+2022-01-16 00:14:03.214 -08:00 [INF] Request received to send /index.html
+2022-01-16 00:14:03.215 -08:00 [DBG] Reading file from App\index.html
+2022-01-16 00:14:03.215 -08:00 [DBG] File read from App\index.html: 1612
+2022-01-16 00:14:03.215 -08:00 [DBG] Number of chunks: 1
+2022-01-16 00:14:10.444 -08:00 [INF] Request received to get /index.html
+2022-01-16 00:14:10.445 -08:00 [DBG] Getting file information for App\index.html
+2022-01-16 00:14:10.537 -08:00 [INF] Request received to send /index.html
+2022-01-16 00:14:10.538 -08:00 [DBG] Reading file from App\index.html
+2022-01-16 00:14:10.538 -08:00 [DBG] File read from App\index.html: 1612
+2022-01-16 00:14:10.538 -08:00 [DBG] Number of chunks: 1

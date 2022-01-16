@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+}
+.button,
+.buttonOutline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "nunito", sans-serif;
+}
+.button {
+  background-color: var(--secondary_dark_color);
+  color: #fff;
+  border: none;
+}
+.buttonOutline {
+  background-color: transparent;
+}
+.button:focus,
+.buttonOutline:focus {
+  outline: 3px solid rgba(255, 255, 255, 0.1);
+}
+.buttonOutline {
+  outline: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 5px;
+  border: none;
+}
+.text {
+  color: #fff;
+  font-weight: 800;
+  margin-top: 2px;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}

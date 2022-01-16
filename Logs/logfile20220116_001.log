@@ -1,0 +1,4 @@
+2022-01-16 00:25:09.598 -08:00 [INF] lohost client: v0.1
+2022-01-16 00:25:09.645 -08:00 [INF] Attempting to register this client as https://8iy4d.lohost.io
+2022-01-16 00:25:10.317 -08:00 [DBG] Connection ID: 0oetR6-Igds8BtrKBgR4ZQ
+2022-01-16 00:25:10.473 -08:00 [INF] Unable to register this client to https://8iy4d.lohost.io, waiting for it to become available
