@@ -1,8 +1,8 @@
-# Notrix Browser Notes
+# Decent Notes
 
-A Simple notes app which saves all notes to browser storage. 
+A Simple note app which saves all notes to browser storage. 
 
-🔗 **Link:** https://notrix.netlify.app/
+🔗 **Link:** https://decentnotes.netlify.app/
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 ## Screenshots
@@ -26,11 +26,6 @@ npm install
 npm start
 ```
     
-## Authors
-
-- [@SrujanGurram](https://www.github.com/royal-lobster)
-
-  
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
