@@ -16,7 +16,7 @@ A Simple note app which saves all notes to browser storage.
 ```bash
 git clone https://github.com/Im-Mr-Chris/decent-notes-main
 
-cd covercons
+cd decent-notes-main
 
 npm install
 ```
